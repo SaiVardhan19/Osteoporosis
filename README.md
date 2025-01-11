@@ -11,7 +11,7 @@ In this repository, we use a simple neural network to predict whether a patient 
 ## **This code is divided into five components:**
 
 ### **1. Importing Necessary Libraries**
-This covers libraries like as **pandas**, **numpy**, **sklearn**, and **TensorFlow**, as well as its siblings.
+This covers libraries like as **pandas**, **numpy**, **sklearn**, and **TensorFlow**.
 
 ## **2. Data preprocessing**
 This stage includes the following subtasks:
@@ -19,10 +19,10 @@ This stage includes the following subtasks:
 - **Handling Missing Values**: Imputing missing values with median values.
 - **Selecting the Target and Features**: Separate the input features (X) from the target variable (y).
 - **Data Splitting**: The dataset is divided into training and testing sets (80:20).
-- **Data Scaling**: To achieve faster model convergence, normalize the feature values using **StandardScaler**.
+- **Data Scaling**: To achieve faster model convergence the feature values are normalized using **StandardScaler**.
 
 
-**K-Fold Cross-Validation**: Using K-Fold from sklearn.model_selection to divide data into three folds and shuffling.
+**K-Fold Cross-Validation and Model Building**: Using K-Fold from sklearn.model_selection to divide data into folds and shuffling.
 - Model Structure: - The input layer consists of 128 neurons.
 - The **Hidden Layers** have 64 and 32 neurons with ReLU activation.
 - **Batch Normalization** normalizes the layer outputs to reduce covariate shifts.
