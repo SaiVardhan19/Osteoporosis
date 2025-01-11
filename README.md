@@ -23,14 +23,14 @@ This stage includes the following subtasks:
 
 
 **K-Fold Cross-Validation and Model Building**: Using K-Fold from sklearn.model_selection to divide data into folds and shuffling.
--- Model Structure: - The input layer consists of 128 neurons.
--- The **Hidden Layers** have 64 and 32 neurons with ReLU activation.
--- **Batch Normalization** normalizes the layer outputs to reduce covariate shifts.
--- **Dropout** is used to remove random neurons during training to prevent overfitting.
--- **Output Layer**: A single neuron with a **sigmoid** activation function for binary classification (osteoporosis or not).
--- **Early Stopping**: Ends model training when performance no longer increases and accepts the convergence point.
--- **Compilation**: Using the **Adam(Adaptive Moment Estimation) optimizer**, the loss function is **binary crossentropy**, and accuracy is the measure.
--- **Training**: Run the model for 100 epochs with a batch size of 16 and monitor the validation loss.
+- Model Structure: - The input layer consists of 128 neurons.
+- The **Hidden Layers** have 64 and 32 neurons with ReLU activation.
+- **Batch Normalization** normalizes the layer outputs to reduce covariate shifts.
+- **Dropout** is used to remove random neurons during training to prevent overfitting.
+- **Output Layer**: A single neuron with a **sigmoid** activation function for binary classification (osteoporosis or not).
+- **Early Stopping**: Ends model training when performance no longer increases and accepts the convergence point.
+- **Compilation**: Using the **Adam(Adaptive Moment Estimation) optimizer**, the loss function is **binary crossentropy**, and accuracy is the measure.
+- **Training**: Run the model for 100 epochs with a batch size of 16 and monitor the validation loss.
 
 
 
