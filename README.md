@@ -43,7 +43,7 @@ In this step, we assess the model's performance on the test set.
 
 ### **5. New Patient Predictions**
 This section includes capabilities for predicting osteoporosis in a new patient.
-- **get_patient()**: This function gathers the patient information while ensuring inputs are correct.
+- **get_patient()**: This function gathers the patient information while ensuring inputs are in the correct format.
 - **predict_new()**: This function uses the learned model to determine whether the patient is at risk of osteoporosis. The function accepts patient data as input and provides a prediction (0 = No Osteoporosis, 1 = Osteoporosis).
 
 This systematic method allows for clear comprehension and efficient development while also ensuring the project's maintainability.
