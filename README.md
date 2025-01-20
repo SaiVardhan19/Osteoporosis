@@ -11,7 +11,7 @@ In this repository, we use a multilayered neural network in Deep Learning to pre
 ## **This code is divided into five components:**
 
 ### **1. Importing Necessary Libraries**
-This covers libraries like as **pandas**, **numpy**, **sklearn**, and **TensorFlow**.
+This covers libraries such as **pandas**, **numpy**, **sklearn**, and **TensorFlow**.
 
 ## **2. Data preprocessing**
 This stage includes the following subtasks:
