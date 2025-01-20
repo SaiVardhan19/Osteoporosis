@@ -7,7 +7,7 @@ Osteoporosis is a condition in which bones become more porous and less dense tha
 
 
 
-In this repository, we use a simple neural network to predict whether a patient has osteoporosis and the likelihood of the prediction being right.
+In this repository, we use a multilayered neural network in Deep Learning to predict whether a patient has osteoporosis and the likelihood of the prediction being right.
 ## **This code is divided into five components:**
 
 ### **1. Importing Necessary Libraries**
